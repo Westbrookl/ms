@@ -1,0 +1,5 @@
+1 rabbitmq 设置成为外部主机可以连接
+https://blog.csdn.net/liboyang71/article/details/78457439
+
+2 Rabbitmq在linux下面的安装：
+https://www.cnblogs.com/web424/p/6761153.html

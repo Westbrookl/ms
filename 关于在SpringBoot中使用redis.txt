@@ -1,0 +1,6 @@
+1 通过在bean加载的时候初始化成员变量的方式来配置jedisPool
+即创建一个RedisService的类，有个成员变量JedisPool通过应用InitializingBean的接口，实现afterPropertiesSet()在初始化bean的时候便去加载其中的配置。
+
+2 是通过@ConfigurationProperties(prefix="")通过配置文件读取出里面的配置。
+   然后通过@Bean 显示创建一个JedisPool的实例
+  然后在RedisService当中读取这个配置。

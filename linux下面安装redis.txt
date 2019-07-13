@@ -1,0 +1,16 @@
+redis在linux下面的安装：
+1 wget 
+2 tar -xzf 
+3 sudo apt-intall make
+4 cd /redis
+5 make
+6 cd src 
+7 install
+8 cd /uitls
+9 ./install-server.sh
+
+/usr/local/redis/redis-5.0.5/redis.conf
+/usr/local/redis/redis-5.0.5/redis.log
+/usr/local/redis/redis-5.0.5/data
+/usr/local/redis/redis-5.0.5/src/redis-server
+/usr/local/redis/redis-5.0.5/src/redis-cli
